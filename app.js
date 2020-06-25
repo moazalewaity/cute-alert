@@ -38,7 +38,7 @@ function cuteAlert({ type, title, message, buttonText }) {
     <div class="alert-wrapper">
       <div class="alert-frame">
         <div class="alert-header ${bg}">
-          <span class="alert-close">X</span>
+          <div class="alert-close">X</div>
           <img class="alert-img" src="${src}/img/${type}.svg" />
         </div>
         <div class="alert-body">
