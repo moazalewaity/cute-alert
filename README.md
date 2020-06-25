@@ -12,7 +12,7 @@ I designed this JS library as an open-source project with the purpose of providi
 
 Examples:
 
-```
+```sh
 cuteAlert({
   type: "success",
   title: "Congratulations!",
@@ -21,7 +21,7 @@ cuteAlert({
 });
 ```
 
-```
+```sh
 cuteAlert({
   type: "error",
   title: "Sorry...",
@@ -30,7 +30,7 @@ cuteAlert({
 });
 ```
 
-```
+```sh
 cuteAlert({
     type: "warning",
     title: "Be careful...",
@@ -39,7 +39,7 @@ cuteAlert({
   });
 ```
 
-```
+```sh
 cuteAlert({
     type: "info",
     title: "Quick tip!",
@@ -50,7 +50,7 @@ cuteAlert({
 
 cuteAlert() returns a Promise, so you can use "then" to execute an action after the modal window is closed:
 
-```
+```sh
 cuteAlert({
   type: "error",
   title: "Sorry...",
